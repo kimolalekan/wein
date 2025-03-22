@@ -38,7 +38,7 @@ fn main() {
     let mut duplicates = Vec::new();
 
     // Generate and print 1,000,000,000 planet names
-    for i in 1..=10 {
+    for i in 1..=1_000_000_000 {
         let name = generate_planet_name();
 
         // Check for duplicates
